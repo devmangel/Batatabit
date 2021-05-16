@@ -96,7 +96,6 @@ html{
     position: relative;
     padding: 0.2rem;
 }
-<<<<<<< HEAD
 #mid-body{
     width: 100vw;
     background-color: white;
@@ -117,7 +116,7 @@ html{
 }
 .mid-body-container-logo img{
     width: 100vw;
-=======
+}
 .footer{
     background-color: var(--secondary-color);
     position: absolute;
@@ -136,16 +135,10 @@ html{
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
->>>>>>> footer
 }
 
-
-
-<<<<<<< HEAD
 @media screen and (min-width:420px) {
-=======
-@media screen and (min-width:490px) {
->>>>>>> footer
+    
     .body-container-tittle{
         align-items: center;
         height: 5rem;
