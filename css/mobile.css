@@ -96,6 +96,28 @@ html{
     position: relative;
     padding: 0.2rem;
 }
+.footer{
+    background-color: var(--secondary-color);
+    position: absolute;
+    bottom: 1rem;
+}
+.footer-container{
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    width: 100vw;
+    height: 2.3rem;
+}
+
+.footer-container p{
+    color: white;
+    font-family: cursive;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
 @media screen and (min-width:490px) {
     .body-container-tittle{
         align-items: center;
