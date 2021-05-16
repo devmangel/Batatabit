@@ -1,5 +1,8 @@
 :root{
     --border: 2px red solid;
+    --main-color: #4C2B86;
+    --secondary-color: #723D90;
+    --third-color: #61529E;
 }
 
 *{
@@ -36,5 +39,69 @@ html{
 }
 .nav-bar a:hover{
     background-color: white;
-    color: blueviolet;
+    color: var(--main-color);
+}
+.body{
+    width: 100vw;
+    height: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    position: relative;
+    top: 1rem;
+    border-radius: 20px;
+    background-color: white;
+}
+.body-container-tittle{
+    padding: 0.5rem;
+    /* border: var(--border); */
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--third-color);
+    border-radius: 20px;
+}
+.body-tittle{
+    font-size: 1.6rem;
+    text-align: center;
+    text-shadow: 1px 5px black ;
+    color: white;
+    /* border: var(--border); */
+}
+.body-container-logo{
+    /* border: var(--border); */
+    margin: 0 auto;
+    position: relative;
+    top: 0rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.body-logo{
+    height: 30vw;
+    width: 40vw;
+    /* border: var(--border); */
+}
+.body-list{
+    width: 60vw;
+    /* border: blue solid 2px; */
+    font-size: 1.4rem;
+    list-style-position: inside;
+    text-align: center;
+}
+.body-list li{
+    position: relative;
+    padding: 0.2rem;
+}
+@media screen and (min-width:490px) {
+    .body-container-tittle{
+        align-items: center;
+        height: 5rem;
+    }
+    .body-tittle{
+        font-size: 1.8rem;
+    }
 }
