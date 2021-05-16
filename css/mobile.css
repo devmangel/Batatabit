@@ -96,7 +96,31 @@ html{
     position: relative;
     padding: 0.2rem;
 }
-@media screen and (min-width:490px) {
+#mid-body{
+    width: 100vw;
+    background-color: white;
+    border-radius: 10px;
+}
+.mid-body-container-text{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    position: relative;
+}
+.mid-body-container-text h3{
+    font-size: 1.4rem;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+.mid-body-container-logo img{
+    width: 100vw;
+}
+
+
+
+@media screen and (min-width:420px) {
     .body-container-tittle{
         align-items: center;
         height: 5rem;
@@ -104,4 +128,12 @@ html{
     .body-tittle{
         font-size: 1.8rem;
     }
+    .mid-body-container-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .mid-body-container-logo img{
+        width: 80vw;
+    }
+    
 }
