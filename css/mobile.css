@@ -51,6 +51,7 @@ html{
     top: 1rem;
     border-radius: 20px;
     background-color: white;
+    /* border: red solid 2px; */
 }
 .body-container-tittle{
     padding: 0.5rem;
@@ -72,13 +73,12 @@ html{
 .body-container-logo{
     /* border: var(--border); */
     margin: 0 auto;
-    position: relative;
-    top: 0rem;
-    width: 100vw;
+    width: 100vw;;
     display: flex;
     align-items: center;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0;
+    padding: 1rem;
 }
 .body-logo{
     height: 30vw;
@@ -96,11 +96,13 @@ html{
     position: relative;
     padding: 0.2rem;
 }
-<<<<<<< HEAD
 #mid-body{
+    /* border: aqua solid 5px; */
     width: 100vw;
     background-color: white;
     border-radius: 10px;
+    position: relative;
+    top: 0rem;
 }
 .mid-body-container-text{
     display: flex;
@@ -108,6 +110,8 @@ html{
     background-color: black;
     align-items: center;
     position: relative;
+    top: 1rem;
+    height: 6rem;
 }
 .mid-body-container-text h3{
     font-size: 1.4rem;
@@ -117,7 +121,7 @@ html{
 }
 .mid-body-container-logo img{
     width: 100vw;
-=======
+}
 .footer{
     background-color: var(--secondary-color);
     position: absolute;
@@ -136,19 +140,16 @@ html{
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
->>>>>>> footer
 }
 
-
-
-<<<<<<< HEAD
 @media screen and (min-width:420px) {
-=======
-@media screen and (min-width:490px) {
->>>>>>> footer
+    
     .body-container-tittle{
         align-items: center;
         height: 5rem;
+    }
+    .body-list {
+        font-size: 1.6rem;
     }
     .body-tittle{
         font-size: 1.8rem;
