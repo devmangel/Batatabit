@@ -1,0 +1,57 @@
+^d034e2a (Miguel Angel 2021-05-09 14:46:52 -0500  1) <!DOCTYPE html>
+944ea295 (Miguel Angel 2021-05-19 10:31:28 -0500  2) <html lang="ES">
+^d034e2a (Miguel Angel 2021-05-09 14:46:52 -0500  3) <head>
+^d034e2a (Miguel Angel 2021-05-09 14:46:52 -0500  4)     <meta charset="UTF-8">
+^d034e2a (Miguel Angel 2021-05-09 14:46:52 -0500  5)     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+^d034e2a (Miguel Angel 2021-05-09 14:46:52 -0500  6)     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+81fd84cf (Miguel Angel 2021-05-09 19:48:43 -0500  7)     <title>Pruebas</title>
+5eb967fd (Miguel Angel 2021-05-14 12:12:07 -0500  8)     <link rel="stylesheet" href="css/mobile.css" media="screen and (min-width: 100px)">
+5eb967fd (Miguel Angel 2021-05-14 12:12:07 -0500  9)     <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 500px)">
+5eb967fd (Miguel Angel 2021-05-14 12:12:07 -0500 10)     <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 800px)">
+^d034e2a (Miguel Angel 2021-05-09 14:46:52 -0500 11) </head>
+^d034e2a (Miguel Angel 2021-05-09 14:46:52 -0500 12) <body>
+4986c485 (Miguel Angel 2021-05-09 21:06:46 -0500 13)     <nav class="nav-bar">
+5eb967fd (Miguel Angel 2021-05-14 12:12:07 -0500 14)         <img src="./Pics/Final-Restop-blanco-.png" alt="Logo de Restop" class="logo">
+5eb967fd (Miguel Angel 2021-05-14 12:12:07 -0500 15)         <div class="nav-bar-items">
+5eb967fd (Miguel Angel 2021-05-14 12:12:07 -0500 16)             <a href="">Inicio</a>
+5eb967fd (Miguel Angel 2021-05-14 12:12:07 -0500 17)             <a href="">Servicios</a>
+5eb967fd (Miguel Angel 2021-05-14 12:12:07 -0500 18)             <a href="">Precio</a>
+5eb967fd (Miguel Angel 2021-05-14 12:12:07 -0500 19)             <a href="">Blog</a>
+5eb967fd (Miguel Angel 2021-05-14 12:12:07 -0500 20)         </div>
+682a207a (Miguel Angel 2021-05-09 19:46:17 -0500 21)     </nav>
+aad50108 (Miguel Angel 2021-05-16 17:38:25 -0500 22)     <section class="pag">
+cebc03d3 (Miguel Angel 2021-05-15 21:02:00 -0500 23)         <div class="body">
+cebc03d3 (Miguel Angel 2021-05-15 21:02:00 -0500 24)             <div class="body-container-tittle">
+cebc03d3 (Miguel Angel 2021-05-15 21:02:00 -0500 25)                 <h2 class="body-tittle">
+cebc03d3 (Miguel Angel 2021-05-15 21:02:00 -0500 26)                     Sistema de Ordenes Digitales y Ultima milla
+cebc03d3 (Miguel Angel 2021-05-15 21:02:00 -0500 27)                 </h2>
+cebc03d3 (Miguel Angel 2021-05-15 21:02:00 -0500 28)             </div>     
+cebc03d3 (Miguel Angel 2021-05-15 21:02:00 -0500 29)             <div class="body-container-logo">    
+cebc03d3 (Miguel Angel 2021-05-15 21:02:00 -0500 30)                 <img src="./Pics/Final-Restop-color.png" alt="Logo Restop" class="body-logo">
+cebc03d3 (Miguel Angel 2021-05-15 21:02:00 -0500 31)                 <ul class="body-list">
+cebc03d3 (Miguel Angel 2021-05-15 21:02:00 -0500 32)                     <li>Menu Digital</li>
+cebc03d3 (Miguel Angel 2021-05-15 21:02:00 -0500 33)                     <li>Comandas</li>
+cebc03d3 (Miguel Angel 2021-05-15 21:02:00 -0500 34)                     <li>Domicilio</li>
+cebc03d3 (Miguel Angel 2021-05-15 21:02:00 -0500 35)                     <li>Pagina web</li>
+cebc03d3 (Miguel Angel 2021-05-15 21:02:00 -0500 36)                     <li>Marketing Digital</li>
+cebc03d3 (Miguel Angel 2021-05-15 21:02:00 -0500 37)                 </ul>
+cebc03d3 (Miguel Angel 2021-05-15 21:02:00 -0500 38)             </div>
+cebc03d3 (Miguel Angel 2021-05-15 21:02:00 -0500 39)         </div>
+aad50108 (Miguel Angel 2021-05-16 17:38:25 -0500 40)         <section id="mid-body">
+aad50108 (Miguel Angel 2021-05-16 17:38:25 -0500 41)             <div class="mid-body-container-text">
+aad50108 (Miguel Angel 2021-05-16 17:38:25 -0500 42)                 <h3>
+aad50108 (Miguel Angel 2021-05-16 17:38:25 -0500 43)                     <b>DESCUBRE OTRA FORMA DE DIGITALIZAR TU RESTAURANTE</b>
+aad50108 (Miguel Angel 2021-05-16 17:38:25 -0500 44)                 </h3>
+aad50108 (Miguel Angel 2021-05-16 17:38:25 -0500 45)             </div>
+aad50108 (Miguel Angel 2021-05-16 17:38:25 -0500 46)             <div class="mid-body-container-logo">
+aad50108 (Miguel Angel 2021-05-16 17:38:25 -0500 47)                 <img src="./Pics/app.png" alt="app delivery">
+aad50108 (Miguel Angel 2021-05-16 17:38:25 -0500 48)             </div>
+aad50108 (Miguel Angel 2021-05-16 17:38:25 -0500 49)         </section>
+5eb967fd (Miguel Angel 2021-05-14 12:12:07 -0500 50)     </section>
+52bdf91a (Miguel Angel 2021-05-16 17:00:29 -0500 51)     <footer class="footer">
+52bdf91a (Miguel Angel 2021-05-16 17:00:29 -0500 52)         <div class="footer-container">
+52bdf91a (Miguel Angel 2021-05-16 17:00:29 -0500 53)             <p class="footer-container-item">Creado por moviedo9</p>
+52bdf91a (Miguel Angel 2021-05-16 17:00:29 -0500 54)         </div>
+52bdf91a (Miguel Angel 2021-05-16 17:00:29 -0500 55)     </footer>
+^d034e2a (Miguel Angel 2021-05-09 14:46:52 -0500 56) </body>
+198fe127 (moviedo9     2021-05-12 10:37:44 -0500 57) </html>
