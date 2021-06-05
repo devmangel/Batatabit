@@ -94,6 +94,7 @@ main{
     position: relative;
     display: flex;
     flex-direction: column;
+    margin-bottom: 3rem;
     /* border: 1px solid red; */
 }
 .main__exchange_container_backgroundImg{
@@ -122,38 +123,201 @@ main{
     color: #757575;
     margin: 2.5rem 0;
 }
-.main_currency_container h3{
+.main_currency_container .main_currency_tittle{
     font-size: 1.8rem;
     color: orange;
-    margin: 0 160px 0 70px;
+    margin-bottom: 1rem;
+    margin-left: 8rem;
+    position: relative;
+    /* border: brown 1px solid; */
 }
 
 .main__tables{
-    border: red solid 1px;
-    display: flex;
+    /* border: red solid 1px; */
+    /* display: flex; */
     width: 100vw;
     height: auto;
-
+    font-family: 'Inter', sans-serif;
 }
-
-
 .main_tables_container{
-    width: 60vw;
-    height: 160px;
-    border: solid blue 2px;
+    width: 70vw;
+    max-width: 250px;
+    height: auto;
+    /* border: solid blue 2px; */
     margin: 0 auto;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #B5B0AC;
+    /* display: flex; */
+    /* border-radius: 20px; */
 }
+table{
+    width: 100%;
+}
+.main_tables_container td{
+    width: 50%;
+    height: auto;
+    padding: 10px 12px 10px 12px;
+    /* border: brown solid 1px; */
+    background-color: #FFFFFF;
+}
+.table_top-left{
+    border-radius: 15px 0 0 0px;
+}
+.table_top-right{
+    border-radius: 0 15px 0 0;
+}
+.table__bottom-right{
+    border-radius: 0 0 10px 0;
+}
+.table__bottom-left{
+    border-radius: 0 0 0 15px;
+}
+.main_tables_container .down{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 0.8rem;
+    background-image: url(../Pics/Icons/down.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main_tables_container .up{
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin-left: 0.8rem;
+        background-image: url(../Pics/Icons/up.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+.main_tables_container .table__right{
+    font-weight: 400;
+    font-family: 1.4rem;
+    color: #757575;
+    text-align: center;
+}
+
 .main__exchange_container_botton{
     background: var(--Soft-Orange);
     width: 18rem;
     height: 3rem;
-    margin: auto;
+    margin: 2rem auto;
+    border-radius: 8px;
 
 }
 .main__tables p{
     text-align: center;
-    font-family: 'Inter', sans-serif;
     line-height: 1.5rem;
     font-size: 1.2rem;
     padding: 0.8rem;
+}
+.main_currency_tittle-comission{
+    font-size: 1.8rem;
+    color: #1A9AF7;
+    margin-bottom: 1rem;
+    margin-left: 8rem;
+    position: relative;
+}
+.main__exchange_container_botton-comission{
+    background-color: var(--Soft-Blue);
+    width: 18rem;
+    height: 3rem;
+    margin: 2rem auto;
+    border-radius: 8px;
+}
+.icon_separate_section{
+    position: relative;
+    top: -1.6rem;
+    left: calc(50% - 2.2rem);
+    display: block;
+    /* border: brown solid 1px; */
+    width: 50px;
+    height: 5rem;
+    background-image: url(../Pics/logo_footer.svg);
+    background-repeat: no-repeat;
+}
+.main__product{
+    width: 100vw;
+    height: auto;
+    background-color: #201E1C;
+    /* border: yellow solid 1px; */
+}
+.main__product_header{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    /* border: solid red 2px; */
+}
+.main__product_header h3{
+    color: var(--Just-White);
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.6rem;
+}
+.main__product_header p{
+    font-size: 1.4rem;
+    color: #808080;
+    line-height: 1.8rem;
+    text-align: center;
+    margin-top: 2.4rem;
+    /* border: red solid 2px; */
+}
+.main__product-boxes{
+    margin: 2rem;
+}
+.main__product-boxes article{
+    margin-bottom: 2rem;
+    /* border: solid red 1px; */
+    background-color:#282623;
+    padding: 0 1.5rem 2.5rem 1.6rem;
+    border-radius: .8rem;
+    max-width: 35rem;
+}
+.main__product-boxes span{
+    display: inline-block;
+    position: relative;
+    top: 1.6rem;
+    margin-bottom: 3rem;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+.main__product-boxes .clock{
+    background-repeat: no-repeat;
+    background-image: url(../Pics/Icons/clock1.svg);
+}
+.main__product-boxes .eye{
+    background-repeat: no-repeat;
+    background-image: url(../Pics/Icons/eye1.svg);
+}
+.main__product-boxes .money{
+    background-repeat: no-repeat;
+    background-image: url(../Pics/Icons/dollar-sign.svg);
+}
+.main__product-boxes .circle-check{
+    background-repeat: no-repeat;
+    background-image: url(../Pics/Icons/check-circle.svg);
+}
+.main__product-boxes h3{
+    color: var(--Just-White);
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
+}
+.main__product-boxes p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.main_background_picture{
+    height: 30rem;
+    width: 100vw;
+    background-position: center;
+    background-image: url(../Pics/Icons/bitcoinbaby1.svg);
+    background-size: cover;
 }

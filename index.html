@@ -1,29 +1,30 @@
 <!DOCTYPE html>
-<html lang="ES">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pruebas</title>
+    <title>Dev Test</title>
     <link rel="stylesheet" href="css/mobile.css" media="screen and (min-width: 100px)">
     <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 500px)">
     <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 800px)">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="shortcut icon" type="image/svg" href="./Pics/Restop/AnyConv.com__Final-Restop-blanco-.svg">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <header>
         <img src="./Pics/primera_Imagen.svg" alt="Logo Batabit">
             <div class="header__tittle_container">
-            <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
-            <p>Batatabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
-            <a href="" class="header__button">Conoce Nuestros Planes <span></span></a>
-        </div>
+                <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
+                <p>Batatabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
+                <a href="" class="header__button">Conoce Nuestros Planes <span></span></a>
+            </div>
     </header>
     <main>
         <section class="main__exchange_container">
             <div class="main__exchange_container_backgroundImg">
-
+            <!-- Background picture [Bitcoin]-->
             </div>
             <div class="main__exchange_container_tittle">
                 <h2>Visibilizamos todas las tasas de cambio.</h2>
@@ -31,31 +32,28 @@
             </div>
             <section class="main__tables">
                 <div class="main_currency_container">
-                    <h3>
+                    <h3 class="main_currency_tittle">
                         Monedas
                     </h3>
                     <div class="main_tables_container">
                         <table>
                             <tr>
-                                <td class="table_top_left">Bitcoin<td>
-                                <td class="table_top-right table__right">$ 1.96</td>
-                                <span></span>
+                                <td class="table_top-left">Bitcoin</td>
+                                <td class="table_top-right table__right">
+                                    $ 1.96 <span class="down"></span></td>
                             </tr>
                             <tr>
                                 <td>Ethereum</td>
-                                <td class="table__right">$ 0.07</td>
-                                <span class="main_tables_container_iconone">
-                                </span>
+                                <td class="table__right">$ 0.07 <span class="up"></span></td>
                             </tr>
                             <tr>
                                 <td>Ripple</td>
-                                <td class="">$ 2.15</td>
-                                <span></span>
+                                <td class="table__right">$ 2.15<span class="down"></span></td>
                             </tr>
                             <tr>
                                 <td class="table__bottom-left"> Stellar</td>
-                                <td class="table__bottom-left table__right">$ 4.96</td>
-                                <span></span>
+                                <td class="table__bottom-right table__right">$ 4.96<span class="down"></span></td>
+                            </tr>
                             </tr>
                         </table>
                     </div>
@@ -63,10 +61,70 @@
                         <p><b>Actualizado:</b> 2 Junio 17:30</p>
                     </div>
                 </div>
+                <div class="main_currency_container">
+                    <h3 class="main_currency_tittle-comission">
+                        Comisiones
+                    </h3>
+                    <div class="main_tables_container">
+                        <table>
+                            <tr>
+                                <td class="table_top-left">Bitrade</td>
+                                <td class="table_top-right table__right">
+                                    $ 12.96</td>
+                            </tr>
+                            <tr>
+                                <td>Bitpreco</td>
+                                <td class="table__right">$ 13.07</td>
+                            </tr>
+                            <tr>
+                                <td>Novadax</td>
+                                <td class="table__right">$ 13.15</td>
+                            </tr>
+                            <tr>
+                                <td class="table__bottom-left"> Coinext</td>
+                                <td class="table__bottom-right table__right">$ 14.96</td>
+                            </tr>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="main__exchange_container_botton-comission">
+                        <p><b>Actualizado:</b> 4 Junio 17:30</p>
+                    </div>
+                </div>
             </section>    
         </section>
-        <section></section>
-        <section></section>
+        <section class="main__product">
+            <span class="icon_separate_section"></span>
+            <div class="main__product_header">
+                <h3>Creamos un producto sin comparación.</h3>
+                <p>Confiable y diseñado para su uso diario.</p>
+            </div>
+            <section class="main__product-boxes">
+                <article>
+                    <span class="clock"></span>
+                    <h3>Tiempo real</h3>
+                    <p>Nuestro API toma información minuto a minuto sobre las tasas que más determinan el comportamiento.</p>
+                </article>
+                <article>
+                    <span class="eye"></span>
+                    <h3>No hay tasas escondidas</h3>
+                    <p>Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estás adquiriendo.</p>
+                </article>
+                <article>
+                    <span class="money"></span>
+                    <h3>Compara monedas</h3>
+                    <p>No más rumores, con Babtabit sabrás el valor real de cada moneda en el mercado actual.</p>
+                </article>
+                <article>
+                    <span class="circle-check"></span>
+                    <h3>Información confiable</h3>
+                    <p>Nuestras fuentes están 100% verificadas y continuamos auditando su contenido mientras se actualizan.</p>
+                </article>
+            </section>    
+        </section>
+        <section class="main_background_picture">
+            <h2>Conócelo hoy.</h2>
+        </section>
         <section></section>
     </main>
     <footer></footer>
