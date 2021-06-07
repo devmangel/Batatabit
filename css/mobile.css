@@ -8,6 +8,7 @@
     --Grey: #BABABA;
     --Off-White: #FAF8F7;
     --Just-White: #FFFFFF;
+    --width:100vw;
 }
 
 *{
@@ -244,7 +245,9 @@ table{
     width: 100vw;
     height: auto;
     background-color: #201E1C;
-    /* border: yellow solid 1px; */
+    padding-bottom: 1rem;
+    /* margin-bottom: 5rem; */
+    /* border: yellow solid 3px; */
 }
 .main__product_header{
     margin-top: 4rem;
@@ -315,9 +318,23 @@ table{
     color: #808080;
 }
 .main_background_picture{
-    height: 30rem;
+    height: 70vh;
     width: 100vw;
+    min-width: 320px;
     background-position: center;
-    background-image: url(../Pics/Icons/bitcoinbaby1.svg);
+    background-image: url(../Pics/Icons/bitcoinbaby9.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    /* border: solid red 2px; */
+}
+.main_background_picture h2{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--Just-White);
+    position: relative;
+    left: calc(50% - 10rem);
+    top: 6rem;
+    width: 20rem;
+    /* border: red solid 2px; */
 }
