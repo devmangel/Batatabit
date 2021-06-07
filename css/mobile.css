@@ -19,6 +19,8 @@
 html{
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
+
 }
 header{
     position: relative;
@@ -134,11 +136,25 @@ main{
 }
 
 .main__tables{
-    /* border: red solid 1px; */
-    /* display: flex; */
-    width: 100vw;
+    /* border: blue solid 1px; */
+    display: flex;
     height: auto;
+    width: 100vw;
     font-family: 'Inter', sans-serif;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.main__tables::-webkit-scrollbar{
+    height: 1px;
+    background-color: var(--Soft-Blue);
+}
+.main__tables::-webkit-scrollbar-thumb{
+    background-color: var(--Orange);
+}
+.main_currency_container{
+    margin: 0 1.5rem;
+    /* border: red solid 1px; */
 }
 .main_tables_container{
     width: 70vw;
@@ -155,6 +171,10 @@ main{
 }
 table{
     width: 100%;
+    /* border: red solid 1px; */
+    scroll-snap-align: center;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+
 }
 .main_tables_container td{
     width: 50%;
@@ -234,7 +254,7 @@ table{
     position: relative;
     top: -1.6rem;
     left: calc(50% - 2.2rem);
-    display: block;
+    display: inline-block;
     /* border: brown solid 1px; */
     width: 50px;
     height: 5rem;
@@ -271,6 +291,8 @@ table{
 }
 .main__product-boxes{
     margin: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 .main__product-boxes article{
     margin-bottom: 2rem;
@@ -279,6 +301,7 @@ table{
     padding: 0 1.5rem 2.5rem 1.6rem;
     border-radius: .8rem;
     max-width: 35rem;
+    align-self: center;
 }
 .main__product-boxes span{
     display: inline-block;
@@ -337,4 +360,176 @@ table{
     top: 6rem;
     width: 20rem;
     /* border: red solid 2px; */
+}
+.main__plans_container-tittle{
+    /* border: 1px solid red; */
+    width: 30rem;
+    height: 12rem;
+    margin: 6.4rem auto 4rem;
+
+}
+.main__plans_container-tittle h2{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    text-align: center;
+    color: var(--Warm-Black);
+    margin-bottom: 2.4rem;
+}
+.main__plans_container-tittle p{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    color: #757575;
+}
+.main__plans_container_cards{
+    display: flex;
+    /* border: solid blue 1px; */
+    height: 30rem;
+    padding: 0 2rem;
+    align-items: center;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.main__plans_container_cards::-webkit-scrollbar {
+    background-color: var(--Soft-Orange);
+    height: 3px;
+  }
+  .main__plans_container_cards::-webkit-scrollbar-thumb {
+    background-color: var(--Orange);
+  }
+  
+.main__plans_cards{
+    max-width: 30rem;
+    min-width: 18rem;
+    height: 25rem;
+    /* border: black solid 1px; */
+    margin-left: 2rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    scroll-snap-align: center;
+    box-shadow: 0px 4px 8px 4px rgba(89, 73, 30, 0.16);
+}
+.main__plans_cards h4{
+    position: relative;
+    top: -13px;
+    left: calc(50% - 60px);
+    width: 12rem;
+    height: 3rem;
+    background-color: var(--Orange);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--Just-White);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main__plans_cards h6{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    /* font-weight: 500; */
+    color: #000000;
+    margin: 0 auto;
+}
+.main__plans_cards h5{
+    margin: 1rem auto;
+    font-family: 'Inter', sans-serif;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 6.2rem;
+    color: #000000;
+    letter-spacing: -0.3rem;
+}
+.main__plans_cards h5 sup{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    color: #363636;
+    position: relative;
+    top: -10px;
+    left: -5px;
+}
+.main__plans_cards p{
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: #757575;
+    text-align: center;
+    padding: 0 1.5rem;
+}
+.main__plans_cards button{
+    width: 80%;
+    border: var(--Orange) 2px solid;
+    margin: 1.5rem auto;
+    height: 4.8rem;
+    border-radius: 4px;
+    color: var(--Warm-Black);
+    background-color: var(--Just-White);
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__plans_cards .button-month{
+    position: relative;
+    bottom: -1.3rem;
+}
+.main__plans_cards-month{
+    padding-top: 3rem;
+}
+.main__plans_cards-semester{
+    padding-top: 3rem;
+}
+.main__plans_cards span{
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+    background-image: url(../Pics/Icons/arrow-right.png);
+    margin-left: 0.8rem;
+}
+.footer__container{
+    width: 100vw;
+    height: 15rem;
+    background-color: var(--Orange);
+}
+.footer__container p{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--Just-White);
+    margin-top: 1.2rem;
+    margin-left: 6rem;
+    position: relative;
+    top: 4rem;
+}
+.footer__container span{
+    display: inline-block;
+    width: 4rem;
+    height: 2.4rem;
+    background-image: url(../Pics/logo_footer.svg);
+    position: relative;
+    left: calc(75% - 2rem);
+    bottom: 2.7rem;
+}
+.footer__container sub{
+    position: relative;
+    bottom: 1rem;
+    left: calc(75% - 8rem);
+    font-size: 0.8rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    color: #FFE9D4;
 }

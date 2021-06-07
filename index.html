@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Test</title>
     <link rel="stylesheet" href="css/mobile.css" media="screen and (min-width: 100px)">
-    <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 500px)">
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 600px)">
     <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 800px)">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="shortcut icon" type="image/svg" href="./Pics/Restop/AnyConv.com__Final-Restop-blanco-.svg">
@@ -18,7 +18,7 @@
             <div class="header__tittle_container">
                 <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
                 <p>Batatabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
-                <a href="" class="header__button">Conoce Nuestros Planes <span></span></a>
+                <a href="#plans" class="header__button">Conoce Nuestros Planes <span></span></a>
             </div>
     </header>
     <main>
@@ -125,8 +125,42 @@
         <section class="main_background_picture">
             <h2>Conócelo hoy.</h2>
         </section>
-        <section></section>
+        <section class="main__plans" id="plans">
+            <div class="main__plans_container-tittle">
+                <h2>Escoge el plan que mejor se ajuste a ti.</h2>
+                <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
+            </div>
+            <div class="main__plans_container_cards">
+                <articule class="main__plans_cards main__plans_cards-month">
+                    <h6>Pago Mensual</h6>
+                    <h5><sup>$</sup>19</h5>
+                    <p>Tarifa plana</p>
+                    <button class="button-month">Escoger este<span></span></button>
+                </articule>
+                <articule class="main__plans_cards">
+                    <h4>Recomendado</h4>
+                    <h6>Pago Anual</h6>
+                    <h5><sup>$</sup>99</h5>
+                    <p>*Ahorras $129 comparado al plan mensual</p>
+                    <button class="botton-year">Escoger este<span></span></button>
+                </articule>
+                <articule class="main__plans_cards main__plans_cards-semester">
+                    <h6>Pago Semestral</h6>
+                    <h5><sup>$</sup>69</h5>
+                    <p>*Ahorras $145 comparado al plan mensual</p>
+                    <button class="botton-semester">Escoger este<span></span></button>
+                </articule>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footer__container">
+            <p>Linkedin</p>
+            <p>Crunchbase</p>
+            <p>Hackernews</p>
+            <span></span>
+            <sub>® Batatabit 2020</sub>
+        </div>    
+    </footer>
 </body>
 </html>

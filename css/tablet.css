@@ -1,0 +1,13 @@
+header img{
+    width: 200px;
+    height: 30px;
+}
+.header__tittle_container h1{
+    font-size: 3rem;
+}
+.header__tittle_container p{
+    font-size: 1.8rem;
+}
+.main__tables{
+    justify-content: space-around;
+}
