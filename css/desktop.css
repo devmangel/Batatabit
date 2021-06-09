@@ -34,7 +34,7 @@
 }
 .main_background_picture h2{
     font-size: 4rem;
-    width: 100%;
+    width: fit-content;
     top: 8rem;
 }
 .main__plans_container_cards{
