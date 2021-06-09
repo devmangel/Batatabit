@@ -11,3 +11,20 @@ header img{
 .main__tables{
     justify-content: space-around;
 }
+.footer__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: red solid 1px; */
+}
+.footer__container p{
+    font-size: 1.6rem;    
+    position: static;
+    display: flex;
+    justify-content: space-around;
+    /* border: solid blue 1px; */
+}
+.footer__container sub{
+    left: calc(25% - 5rem);
+    top: 2rem;
+}

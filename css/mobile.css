@@ -20,7 +20,7 @@ html{
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
     scroll-behavior: smooth;
-    width: 100vw;
+    width: 100%;
 
 }
 header{
@@ -505,6 +505,10 @@ table{
     height: 15rem;
     background-color: var(--Orange);
 }
+.footer__container{
+    min-width: 320px;
+    /* border: solid blue 1px; */
+}
 .footer__container p{
     font-weight: 500;
     font-size: 1.4rem;
@@ -513,11 +517,7 @@ table{
     margin-top: 1.2rem;
     margin-left: 6rem;
     position: relative;
-    top: 4rem;
-}
-.footer__container{
-    min-width: 320px;
-    /* border: solid blue 1px; */
+    top: 3rem;
 }
 .footer__container span{
     display: inline-block;
@@ -525,17 +525,19 @@ table{
     height: 2.4rem;
     background-image: url(../Pics/logo_footer.svg);
     position: relative;
-    left: calc(75% - 2rem);
+    right: 5rem;
     bottom: 2.7rem;
+    /* border: blue solid 1px; */
 }
 .footer__container sub{
     position: relative;
     bottom: 1rem;
-    left: calc(75% - 8rem);
+    left: calc(75% - 5rem);
     font-size: 0.8rem;
     line-height: 1.8rem;
     font-weight: 500;
     text-align: center;
     color: #FFE9D4;
     height: 50px;
+    /* border: red solid 1px; */
 }

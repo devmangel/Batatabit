@@ -1,15 +1,24 @@
+
 .header__tittle_container .header__button{
     width: 300px;
     height: 60px;
     font-size: 1.8rem;
 }
+.main_currency_container-left{
+    margin-left: 30rem;
+    /* border: red solid 1px; */
+}
+.main_currency_container-right{
+    margin-right: 30rem;
+    /* border: blue solid 1px; */
+}
 .icon_separate_section{
-    width: 120px;
-    height: 7rem;
+    width: 8rem;
+    height: 4rem;
     /* border: brown solid 1px; */
-    background-size: cover;
-    top: -3.5rem;
-    left: calc(50% - 6rem);
+    background-size: contain;
+    top: -2rem;
+    left: calc(50% - 4rem);
 }
 .main__product-boxes{
     flex-direction: row;
@@ -18,6 +27,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .main__product-boxes article{
     width: 50%;
     /* border:  solid red 1px; */
@@ -43,7 +53,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* border: red solid 1px; */
+    /* border: crimson solid 2px; */
 }
 .footer__container p{
     font-size: 2rem;    
@@ -54,24 +64,23 @@
 .footer__container span{
     display: inline-block;
     width: 8rem;
-    height: 4.4rem;
+    height: 4.5rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../Pics/logo_footer.svg);
     position: relative;
-    left: 0;
-    bottom: 1.7rem;
+    top: -2rem;
+    left: -10rem;
     /* border: blue solid 2px; */
 }
 .footer__container sub{
     position: relative;
-    bottom: -2rem;
-    left: 500px;
+    top: 0.5rem;
+    left: calc(20% - 5rem);
     font-size: 1.3rem;
     line-height: 1.8rem;
     font-weight: 500;
-    text-align: center;
     color: #FFE9D4;
     /* border: red solid 2px; */
-    height: 50px;
+    text-align: center;
 }
